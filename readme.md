@@ -29,9 +29,9 @@ Dokumentasikan percobaan kalian dengan baik dan buatlah kesimpulan dari hasil pe
 
 # Running 2 Worker
 * Running Docker terlebih dahulu <br/>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "docker")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/docker.jpg "docker")<br/>
 * Masuk ke folder yang sudah ada file yml yang sudah diedit lalu jalankan ```docker-compose up -d``` </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "compose")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/compose.jpg "compose")<br/>
 Berikut adalah isi yml file
 ```
 version: "3"
@@ -79,27 +79,27 @@ volumes:
   hadoop_historyserver:
 ```
 * Lalu buka ```http://localhost:8080/``` pada web browser untuk mengecek worker </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "2 workers")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/2worker.jpg "2 workers")<br/>
 * Lalu pada cmd jalankan ```docker ps``` </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "ps2worker")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/ps2worker.jpg "ps2worker")<br/>
 * Lalu eksekusi container sesuai id ```docker exec -it <container_id> /bin/bash``` </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "exec")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/exec.jpg "exec")<br/>
 * Cek hostname dengan command ```hostname -i``` </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "hostname")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/hostname.jpg "hostname")<br/>
 * Jalankan syntax ```spark-submit --master spark://172.26.0.2:7077 examples/src/main/python/pi.py 100``` untuk 100 partisi (Untuk 1000 partisi ganti 100 menjadi 1000)</br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "sparksubmit")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/sparksubmit.jpg "sparksubmit")<br/>
 
 # Hasil 2 Worker
 Berikut adalah hasil 2 workers 100 partisi</br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "2worker100partisi")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/100partisi_2worker.jpg "2worker100partisi")<br/>
 Berikut adalah hasil 2 workers 1000 partisi</br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "2worker1000partisi")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/1000partisi_2worker.jpg "2worker1000partisi")<br/>
 
 # Running 5 Worker
 * Running Docker terlebih dahulu <br/>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "docker")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/docker.jpg "docker")<br/>
 * Masuk ke folder yang sudah ada file yml yang sudah diedit lalu jalankan ```docker-compose up -d``` </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "compose")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/compose.jpg "compose")<br/>
 Berikut adalah isi yml file
 ```
 version: "3"
@@ -180,20 +180,20 @@ volumes:
   hadoop_historyserver:
 ```
 * Lalu buka ```http://localhost:8080/``` pada web browser untuk mengecek worker </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "5 workers")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/5worker.jpg "5 workers")<br/>
 * Lalu pada cmd jalankan ```docker ps``` </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "ps5worker")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/ps5worker.jpg "ps5worker")<br/>
 * Lalu eksekusi container sesuai id ```docker exec -it <container_id> /bin/bash``` </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "exec")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/exec.jpg "exec")<br/>
 * Cek hostname dengan command ```hostname -i``` </br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "hostname")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/hostname.jpg "hostname")<br/>
 * Jalankan syntax ```spark-submit --master spark://172.26.0.2:7077 examples/src/main/python/pi.py 100``` untuk 100 partisi (Untuk 1000 partisi ganti 100 menjadi 1000)</br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "sparksubmit")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/sparksubmit.jpg "sparksubmit")<br/>
 
 # Hasil 5 Worker
 Berikut adalah hasil 5 workers 100 partisi</br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "5worker100partisi")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/100partisi_5worker.jpg "5worker100partisi")<br/>
 Berikut adalah hasil 5 workers 1000 partisi</br>
-![alt text](https://github.com/farizmpr/Bigdata-2020/blob/master/tugas_4/picture/docker.jpg "5worker1000partisi")<br/>
+![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/1000partisi_5worker.jpg "5worker1000partisi")<br/>
 
 # Kesimpulan
