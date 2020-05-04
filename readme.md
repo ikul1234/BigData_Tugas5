@@ -197,3 +197,9 @@ Berikut adalah hasil 5 workers 1000 partisi</br>
 ![alt text](https://github.com/ikul1234/BigData_Tugas5/blob/master/Screenshot/1000partisi_5worker.jpg "5worker1000partisi")<br/>
 
 # Kesimpulan
+Ketika memberikan 100 partisi kepada 2 worker, itu akan memakan proses yang lebih singkat jika dibandingkan kita berikan
+ke 5 worker. Karena worker yang lebih banyak itu menghabiskan waktu pada proses pemabagian kerja. Jadi jika
+semakin banyak partisi yang kita berikan, nilai worker nya juga harus semakin banyak . Agar pada saat melakukan
+proses pekerjaan akan lebih efektif dan efisien. Tentunya jika nilai worker sedikit dan partisi yang diberikan
+itu banyak, akan terjadi overhead proses yang akan banyak membuang banyak waktu pada saat proses pembagian kerja kepada
+workernya.
